@@ -1,0 +1,16 @@
+/* zerando height 100% */
+
+html, body {
+    height: 100%;
+}
+
+.blobo {
+    min-height: 100%;
+}
+
+/* home */
+.home {
+    background-image: url('../img/bg.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
