@@ -18,6 +18,10 @@
 <body>
 
     <header>
+        <!--menu mobile-->
+     
+       
+
         <div class="navbar-fixed">
         <nav class="navbar z-depth-0">
             <div class="nav-wrapper container">
@@ -32,10 +36,8 @@
                     <li><a href="">Contato</a></li>
                 </ul>
 
-                <a href="#" class="button-collapse right">
-                    <i class="material-icons">menu</i>
-                </a>
-
+                <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+               
             </div>
         </nav>
         </div>
@@ -66,5 +68,12 @@
 	<!-- MATERIALIZE JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+
+    <script>
+        $(document).ready(function(){
+            // menu mobile
+            $(".button-collapse").sideNav();
+        })
+    </script>
 	</body>
 </html>
