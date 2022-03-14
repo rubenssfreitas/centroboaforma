@@ -85,6 +85,9 @@ nav i.material-icons {
     .banner h2 {
         font-size: 3rem;
     }
+    .button-collapse {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 993px) {
