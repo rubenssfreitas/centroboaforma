@@ -17,31 +17,36 @@
 </head>
 <body>
 
-    <header>
-        <!--menu mobile-->
-     
-       
+    <!-- HEADER -->
+	<header>
+	    <!-- MENU MOBILE -->
+		<ul class="side-nav" id="menu-mobile">
+			<li><a class="hide-menu" href="#home">Home</a></li>
+			<li><a class="hide-menu" href="#sobre">Sobre o Boa Forma</a></li>
+			<li><a class="hide-menu" href="#servicos">Serviços</a></li>
+			<li><a class="hide-menu" href="#unidades">Unidades</a></li>
+			<li><a class="hide-menu" href="#contato">Contato</a></li>
+		</ul>
 
-        <div class="navbar-fixed">
-        <nav class="navbar z-depth-0">
-            <div class="nav-wrapper container">
-                <h1 class="logo_text">Centro Boa Forma - Seu espaço de saude x</h1>
-                <a href=""><img class="logo_img" src="img/logo.png" alt="Centro Boa Forma"></a>
-                
-                <ul class="right light hide-on-med-and-down">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre a Boa Forma</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Unidades</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
+	    <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <h1 class="logo_text">Centro Boa Forma - Seu espaço de saúde </h1>
+                        <a href=""><img class="logo_img" src="img/logo.png" alt="Centro Boa Forma"></a>
 
-                <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
-               
-            </div>
-        </nav>
-        </div>
-    </header>
+                            <ul class="right light hide-on-med-and-down">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#sobre">Sobre o Boa Forma</a></li>
+                                <li><a href="#servicos">Serviços</a></li>
+                                <li><a href="#unidades">Unidades</a></li>
+                                <li><a href="#contato">Contato</a></li>
+                            </ul>			
+
+                        <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+		</div>
+	</header>
 
     <section class="home bloco">
         <div class="row container banner">
@@ -62,18 +67,18 @@
 
 
 
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <!-- JQUERY -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<!-- MATERIALIZE JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <!-- MATERIALIZE JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-
-    <script>
+     <script> 
+        // menu mobile
         $(document).ready(function(){
-            // menu mobile
-            $(".button-collapse").sideNav();
-        })
+        	// MENU MOBILE
+        	$(".button-collapse").sideNav();
+        });
     </script>
 	</body>
 </html>

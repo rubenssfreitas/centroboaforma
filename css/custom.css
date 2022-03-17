@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {font-family: 'Poppins', sans-serif;}
+
 /* heigth 100%*/
 
 html, body {height: 100%;}
@@ -20,7 +24,12 @@ html, body {height: 100%;}
 /* menu */
 
 .navbar {background-color: transparent;}
-.navbar ul a:hover {background-color: transparent; color: #2dc7d0;}
+.navbar ul a:hover {background-color: transparent; color: #2dc7d0; font-weight: 600;}
+
+nav a {
+    font-weight: 600;
+}
+
 nav {
     color: #fff;
     background-color: #ee6e73;
@@ -37,7 +46,6 @@ nav .nav-extended .nav-wrapper {
 .navbar-fixed {
     position: absolute;
     height: 94px;
-    z-index: 997;
 }
 
 nav {
@@ -98,4 +106,3 @@ nav i.material-icons {
         font-size: 4rem;
     }
 }
-
